@@ -1,6 +1,6 @@
 # Mainnet Tasks
 
-This document outlines the mainnet tasks that need to be completed to make Pyrrho ready for Mainnet launch. **Last updated April 30, 2026.**
+This document outlines the mainnet tasks that need to be completed to make Pyrrho ready for Mainnet launch. **Last updated May 8, 2026.**
 
 Note: The target version number of Democritus is v4.8.2 .
 
@@ -60,8 +60,6 @@ API:
 [Issue 6617](https://github.com/tronprotocol/java-tron/issues/6617): Add blockTimestamp to JSON-RPC log objects to improve efficiency
 
 [Issue 6632](https://github.com/tronprotocol/java-tron/issues/6632): Introduce resource limits for JSON-RPC (batch size, response size, address size, timeout)
-
-[Issue 6674](https://github.com/tronprotocol/java-tron/issues/6674): Add ABI semantic validation for `/wallet/deploycontract`
 
 
 

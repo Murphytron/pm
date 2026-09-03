@@ -1,6 +1,6 @@
 # Mainnet Tasks
 
-This document outlines the mainnet tasks that need to be completed to make Pyrrho ready for Mainnet launch. **Last updated July 17, 2026.**
+This document outlines the mainnet tasks that need to be completed to make Pyrrho ready for Mainnet launch. **Last updated September 3rd, 2026.**
 
 Note: The target version number of Pyrrho is v4.8.2 .
 
@@ -145,35 +145,33 @@ Estimated Nile upgrade time: about 30 days (2026.06.01 ~ 2026.06.30)
 
 Estimated mainnet upgrade time: about 30 days (2026.07.16 ~ 2026.08.16)
 
-- [ ] Notify the community, SRs, CEX, Wallets, DEX, etc.to upgrade TBD
-- [ ] Follow up the upgrade status and progress closely (Contact project team every week, record the upgrade progress) 
-- [ ] Ensure the SRs, CEX, Wallets to complete TBD
+- [x] Notify the community, SRs, CEX, Wallets, DEX, etc.to upgrade (2026.07.16)
+- [x] Follow up the upgrade status and progress closely (Contact project team every week, record the upgrade progress) 
+- [x] Ensure the SRs, CEX, Wallets to complete (2026.08.16)
 
-Estimated Shasta upgrade time: TBD
+Estimated Shasta upgrade time: (2026.08.17 ~ 2026.08.31)
 
-- [ ] Notify the community to upgrade TBD
+- [x] Notify the community to upgrade (2026.08.24), the Shasta has completed 4.8.2 upgrade.
 
 ### Proposals Plan(Fork Plan)
 
 The Pyrrho version has introduced 4 network parameters:
 - No.95 network parameter to enable serving historical block hashes from state (compatible with EIP-2935) ([TIP-2935](https://github.com/tronprotocol/tips/blob/master/tip-2935.md)).
 - No.96 network parameter to enable canonicalizing MODEXP output length when modulus is zero ([TIP-871](https://github.com/tronprotocol/tips/blob/master/tip-871.md))
-- No.97 network parameter to enable harden resourceProcessor resource window calculations ([TIP-833](https://github.com/tronprotocol/tips/blob/master/tip-833.md))
-- No.98 network parameter to enable harden exchange transaction calculations ([TIP-836](https://github.com/tronprotocol/tips/blob/master/tip-836.md))
 
 A draft plan is listed here, and it will be updated after the mainnet upgrade status is reviewed around 2026.08.16:
-- [ ] Start proposals discussing on GitHub (TBD)
-- [ ] Invite community devs and projects participate (TBD)
-- [ ] Community and SRs review and decide the voting date according to the progress (TBD)
+- [x] Start proposals discussing on GitHub (2026.07.24)
+- [x] Invite community devs and projects participate (2026.07.31)
+- [x] Community and SRs review and decide the voting date according to the progress (around 2026.07.31 ~ 2026.08.12), decided to vote on 2026.08.25 during the core devs community call #68.
 
 
 ### Network Upgrade and Fork Status
 
 | Network  | Github | Pyrrho Release Date  |  Latest Status | Fork |  
 |---------|------------|-----|-----|-----|
-| [Nile](https://nileex.io/) | https://github.com/tron-nile-testnet/nile-testnet | 06/17/2026 | GreatVoyage-v4.8.2 （Pyrrho） | - |
-| [Mainnet](https://tron.network/) |https://github.com/tronprotocol/java-tron | 07/15/2026 | GreatVoyage-v4.8.2 （Pyrrho）| -|   
-| [Shasta](https://www.trongrid.io/shasta)  | https://github.com/tronprotocol/java-tron | -  | GreatVoyage-v4.8.1 （Democritus） | - |  
+| [Nile](https://nileex.io/) | https://github.com/tron-nile-testnet/nile-testnet | 06/17/2026 | GreatVoyage-v4.8.2 （Pyrrho） | Forked (Enabled No.95 & No.96 Network Parameter) |
+| [Mainnet](https://tron.network/) |https://github.com/tronprotocol/java-tron | 07/15/2026 | GreatVoyage-v4.8.2 （Pyrrho）| Forked (Enabled No.95 & No.96 Network Parameter) |   
+| [Shasta](https://www.trongrid.io/shasta)  | https://github.com/tronprotocol/java-tron | 08/24/2026 | GreatVoyage-v4.8.2 （Pyrrho） | Forked (Enabled No.95 & No.96 Network Parameter) |  
 
 Nile Upgrade Instruction: https://nileex.io/run/getRunPage
 
